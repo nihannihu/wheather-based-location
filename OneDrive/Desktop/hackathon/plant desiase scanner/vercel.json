@@ -5,11 +5,5 @@
       "src": "plant-disease-scanner/server.js",
       "use": "@vercel/node"
     }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "plant-disease-scanner/server.js"
-    }
   ]
 }

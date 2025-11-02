@@ -4,8 +4,9 @@
   "description": "AI-powered crop disease detection application",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node plant-disease-scanner/server.js",
+    "dev": "nodemon plant-disease-scanner/server.js",
+    "build": "echo 'Building application...'"
   },
   "engines": {
     "node": "18.x"
