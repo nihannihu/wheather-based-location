@@ -2,11 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "server.js",
-      "use": "@vercel/node",
-      "config": {
-        "projectRoot": "plant-disease-scanner/"
-      }
+      "src": "plant-disease-scanner/server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "plant-disease-scanner/server.js"
     }
   ]
 }
