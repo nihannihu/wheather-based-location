@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "plant-disease-scanner/vercel-start.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "plant-disease-scanner/vercel-start.js"
+    }
+  ]
+}
