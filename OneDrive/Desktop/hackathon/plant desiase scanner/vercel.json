@@ -3,12 +3,7 @@
   "builds": [
     {
       "src": "plant-disease-scanner/server.js",
-      "use": "@vercel/node",
-      "config": {
-        "includeFiles": [
-          "plant-disease-scanner/**"
-        ]
-      }
+      "use": "@vercel/node"
     }
   ],
   "routes": [
