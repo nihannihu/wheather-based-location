@@ -10,9 +10,6 @@ const Prediction = require('./models/Prediction');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Export app for Vercel
-module.exports = { app };
-
 // Get AI server URL from environment variable or use default
 const AI_SERVER_URL = process.env.AI_SERVER_URL || 'http://localhost:5000';
 
