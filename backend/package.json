@@ -1,0 +1,36 @@
+{
+  "name": "interactive-weather-map-dashboard",
+  "version": "1.0.0",
+  "description": "Interactive Weather Map Dashboard developed by Nihan Nihu. Find weather information anywhere on Earth with this interactive map. Connect with me on GitHub (@nihannihu), Instagram (@nihannihuu), and LinkedIn (nihan-nihu).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "deploy": "node ../deploy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nihan Nihu",
+    "nihannihu",
+    "nihannihuu",
+    "nihan-nihu",
+    "weather map",
+    "interactive weather",
+    "developer",
+    "programmer",
+    "leaflet",
+    "openweathermap",
+    "geoapify"
+  ],
+  "author": "Nihan Nihu (https://github.com/nihannihu)",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
