@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nihannihu.github.io/ArogyaKrishi-Crop-Disease-Finder/sitemap.xml
