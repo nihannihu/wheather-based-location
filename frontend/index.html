@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nihan Nihu - Interactive Weather Map Dashboard Developer</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Interactive Weather Map Dashboard by Nihan Nihu (nihannihu). Find weather information anywhere on Earth with this interactive map. Connect with me on GitHub (@nihannihu), Instagram (@nihannihuu), and LinkedIn (nihan-nihu).">
+    <meta name="keywords" content="Nihan Nihu, nihannihu, @nihannihuu, nihan-nihu, weather map, interactive weather, developer, programmer">
+    <meta name="author" content="Nihan Nihu">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Nihan Nihu - Interactive Weather Map Dashboard">
+    <meta property="og:description" content="Interactive Weather Map Dashboard developed by Nihan Nihu. Find weather information anywhere on Earth with this interactive map. Connect with me on GitHub (@nihannihu), Instagram (@nihannihuu), and LinkedIn (nihan-nihu).">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-domain.com">
+    <meta property="og:image" content="https://your-domain.com/weather-map-preview.jpg">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Nihan Nihu - Interactive Weather Map Dashboard">
+    <meta name="twitter:description" content="Interactive Weather Map Dashboard developed by Nihan Nihu. Find weather information anywhere on Earth with this interactive map. Connect with me on GitHub (@nihannihu), Instagram (@nihannihuu), and LinkedIn (nihan-nihu).">
+    <meta name="twitter:image" content="https://your-domain.com/weather-map-preview.jpg">
+    <meta name="twitter:site" content="@nihannihuu">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://your-domain.com">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Structured Data - Person Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Nihan Nihu",
+      "url": "https://your-domain.com",
+      "sameAs": [
+        "https://github.com/nihannihu",
+        "https://instagram.com/nihannihuu",
+        "https://linkedin.com/in/nihan-nihu"
+      ],
+      "jobTitle": "Software Developer",
+      "description": "Developer of the Interactive Weather Map Dashboard. Active on GitHub (@nihannihu), Instagram (@nihannihuu), and LinkedIn (nihan-nihu). Creating innovative web applications with modern technologies."
+    }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Find Your Weather</h1>
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Enter a city or zip code...">
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        <!-- Map Container -->
+        <div id="map"></div>
+
+        <!-- Weather Details Container -->
+        <div id="weather-details" class="hidden"></div>
+        
+        <!-- Footer with Social Links -->
+        <footer class="social-footer">
+            <p>Developed by <strong>Nihan Nihu</strong> | Find me online:</p>
+            <div class="social-links">
+                <a href="https://github.com/nihannihu" target="_blank" rel="noopener noreferrer">GitHub (@nihannihu)</a>
+                <a href="https://instagram.com/nihannihuu" target="_blank" rel="noopener noreferrer">Instagram (@nihannihuu)</a>
+                <a href="https://linkedin.com/in/nihan-nihu" target="_blank" rel="noopener noreferrer">LinkedIn (nihan-nihu)</a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js" defer></script>
+</body>
+</html>
